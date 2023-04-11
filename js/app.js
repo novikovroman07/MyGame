@@ -189,3 +189,8 @@ function renderEntities(list) {
 function renderEntity(entity) {
     entity.sprite.render(ctx, entity.pos[0], entity.pos[1]);
 }
+//         var audio = new Audio('sound/star.mp3');
+//         window.addEventListener('click', () =>{
+//             audio.loop = true;
+//             audio.play();
+//         });
